@@ -1,0 +1,135 @@
+.main{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    color:rgb(4, 4, 155);
+    padding: 0 20px;
+}
+.main input{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 12px;
+    box-shadow: 0 4px 8px gray;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btnColor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.btnColor button{
+    background-color:blueviolet;
+    border:none;
+    padding:8px 12px;
+    border-radius:4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button.btneraser{
+    background-color:rgb(208, 165, 249);
+}
+
+.note p{
+    width: 220px;
+    height: 40px;
+    border:1px solid gray;
+    padding: 10px;
+    box-shadow: 0 4px 8px gray;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.note p:hover{
+    transform: translateY(-2px);
+}
+.boxNote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    /* padding: 0 20px; */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .main{
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    
+    .main input{
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    .btnColor{
+        gap: 6px;
+    }
+    
+    .btnColor button{
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    .note p{
+        width: 180px;
+        height: 35px;
+        padding: 8px;
+        margin: 5px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .boxNote{
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main h1{
+        font-size: 24px;
+    }
+    
+    .main input{
+        font-size: 14px;
+    }
+    
+    .note p{
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .btnColor{
+        gap: 4px;
+    }
+    
+    .btnColor button{
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+}
