@@ -1,8 +1,50 @@
-# React NoteApp
+## 📁 Project Files
 
-📝 A beautiful and responsive note-taking application built with React & Vite
+### 📂 Source Code Structure
 
-## Features
+**📄 Main Components:**
+- [`src/App.jsx`](src/App.jsx) - Root application component
+- [`src/main.jsx`](src/main.jsx) - Application entry point
+
+**🧩 Application Components:**
+- [`src/componetnts/NoteApp.jsx`](src/componetnts/NoteApp.jsx) - Main note application logic
+- [`src/componetnts/Note.jsx`](src/componetnts/Note.jsx) - Individual note component
+- [`src/componetnts/ColorButtons.jsx`](src/componetnts/ColorButtons.jsx) - Color picker component
+
+**🎨 Styling:**
+- [`src/styles/note.module.css`](src/styles/note.module.css) - Main application styles
+- [`src/styles/colorButtons.module.css`](src/styles/colorButtons.module.css) - Color button styles
+
+**⚙️ Configuration:**
+- [`package.json`](package.json) - Dependencies and scripts
+- [`vite.config.js`](vite.config.js) - Vite build configuration
+- [`.gitignore`](.gitignore) - Git ignore rules
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone this repository
+git clone https://github.com/negar-younesi/Note-App.git
+
+# Navigate to project
+cd Note-App
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📱 Live Demo
+
+👉 [View Live Application](https://your-app-url-here.com)
+
+---
+
+## 📋 Features
 
 - ✨ Create colorful notes with custom text
 - 🎨 Choose from a vibrant color palette
@@ -13,7 +55,7 @@
 - 🎯 Smooth animations and hover effects
 - 🎨 Modern UI with clean design
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **React 18** - Modern React with hooks
 - **Vite** - Lightning fast build tool
